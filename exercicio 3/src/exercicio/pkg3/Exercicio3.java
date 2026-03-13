@@ -15,7 +15,17 @@ public class Exercicio3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Computador objpc = new Computador("positivo", "Intel Celeron", 82, 4324);
+        objpc.setPreco(1100);
+
+        System.out.println("Marca: " + objpc.getMarca());
+        System.out.println("Processador: " + objpc.getProcessador());
+        System.out.println("Memória RAM: " + objpc.getMemoriaRAM() + "GB");
+        System.out.println("Preço: " + objpc.getPreco());
+
     }
     
 }
+    
+    
+

@@ -15,7 +15,17 @@ public class Exercicio2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+           LivroBilioteca livro1 = new LivroBilioteca("kamasutra","chubrasco",591,2011);
+        livro1.setAnoPublicacao(2014);
+
+        System.out.println("Titulo: " + livro1.getTitulo());
+        System.out.println("Autor: " + livro1.getAutor());
+        System.out.println("quantidade de áginas: " + livro1.getNumeroPaginas());
+        System.out.println("ano de lançamento: " + livro1.getAnoPublicacao());
+
     }
     
 }
+    
+    
+
