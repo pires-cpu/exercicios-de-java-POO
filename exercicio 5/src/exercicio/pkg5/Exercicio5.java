@@ -16,8 +16,8 @@ public class Exercicio5 {
      */
     public static void main(String[] args) {
     
-            Filme objfilme = new Filme("doctor who", "doutor", 169, "livre para todas as idades");
-        objfilme.setClassificacao("10 anos");
+            Filme objfilme = new Filme("doctor who", "doutor", 160, "livre para todas as idades");
+        objfilme.setClassificacao("Livre");
         
         System.out.println("Nome do filme: " + objfilme.getTitulo());
         System.out.println("Diretor: " + objfilme.getDiretor());
